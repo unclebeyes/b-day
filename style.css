@@ -19,14 +19,15 @@ html {
     position: relative;
     text-align: center;
     visibility: hidden;
-    width: 100vw;
+    width: 200vw;
   }
   
   .container > div {
     left: 0;
     position: absolute;
     right: 0;
-    top: 20vh;
+    top: 10vh;
+    bottom: 0;
   }
   
   .one {
@@ -43,12 +44,14 @@ html {
   }
   
   .four .text-box {
-    border: 3px solid #aaa;
+    /* border: 3px solid #aaa; */
     border-radius: 5px;
     margin: 0 auto;
     padding: 10px;
     position: relative;
-    width: 600px;
+    width: 100;
+   
+   
   }
   
   .text-box p {
@@ -253,16 +256,17 @@ html {
   
   @media screen and (max-width: 500px) {
     .container {
-      width: 90%;
+      width: 100%;
     }
   
     .four .text-box {
-      width: 90%;
+      width: 100%;
     }
   
     .text-box .fake-btn {
       bottom: -38px;
       right: 5px;
+      left: 5px;
     }
   
     .idea-5 span {
